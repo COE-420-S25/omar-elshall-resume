@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-size: 16px;
+    print-color-adjust: exact;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+p {
+    margin: 5px 0;
+    color: #b0b0b0;
+    font-size: 1em;
+}
+
+section {
+    background: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: 1em;
+}
+
+ul li {
+    margin-bottom: 5px;
+    color: #b0b0b0;
+}
+
+a {
+    color: #bbbbbb;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.download-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0078D4; /* Azure Blue */
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.download-btn:hover {
+    background-color: #005A9E; /* Darker Blue */
+    text-decoration: none;
+}
+
+
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-size: 12px;
+    }
+    section {
+        background: white;
+        box-shadow: none;
+    }
+    h1, h2, h3, p, ul li, a {
+        color: black;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    p, ul li, a {
+        font-size: 1em;
+    }
+}
