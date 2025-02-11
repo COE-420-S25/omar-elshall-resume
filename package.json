@@ -1,0 +1,8 @@
+{
+  "name": "omar-elshall-resume",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'build script'",
+    "test": "echo 'test script'"
+  }
+}
